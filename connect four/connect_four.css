@@ -1,0 +1,20 @@
+.box {
+    text-align: center;
+}
+
+.instruction {
+    font-size: 20px;
+}
+
+.board {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: lightgrey;
+}

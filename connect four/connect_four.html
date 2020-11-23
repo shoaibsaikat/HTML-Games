@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Connect Four!</title>
+        <script src="../common/jquery-3.5.1.min.js"></script>
+		<link rel="stylesheet" href="../common/bootstrap.min.css">
+		<link rel="stylesheet" href="connect_four.css">
+    </head>
+    <body>
+        <div class="container box">
+            <h1>Welcome to Connect Four!</h1>
+            <h2>The object of this game is to connect four of your chips is a row!</h2>
+            <p class="instruction">Player One: It is your turn, please pick a column to drop your blue chip.</p>
+            <input type="button" id="restart" class="btn btn-primary" value="Restart">
+            <br>
+            <br>
+
+            <table class="board">
+                <tbody>
+                    <tr>
+                        <td><input type="button" id="50" class="cell"></td>
+                        <td><input type="button" id="51" class="cell"></td>
+                        <td><input type="button" id="52" class="cell"></td>
+                        <td><input type="button" id="53" class="cell"></td>
+                        <td><input type="button" id="54" class="cell"></td>
+                        <td><input type="button" id="55" class="cell"></td>
+                        <td><input type="button" id="56" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="40" class="cell"></td>
+                        <td><input type="button" id="41" class="cell"></td>
+                        <td><input type="button" id="42" class="cell"></td>
+                        <td><input type="button" id="43" class="cell"></td>
+                        <td><input type="button" id="44" class="cell"></td>
+                        <td><input type="button" id="45" class="cell"></td>
+                        <td><input type="button" id="46" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="30" class="cell"></td>
+                        <td><input type="button" id="31" class="cell"></td>
+                        <td><input type="button" id="32" class="cell"></td>
+                        <td><input type="button" id="33" class="cell"></td>
+                        <td><input type="button" id="34" class="cell"></td>
+                        <td><input type="button" id="35" class="cell"></td>
+                        <td><input type="button" id="36" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="20" class="cell"></td>
+                        <td><input type="button" id="21" class="cell"></td>
+                        <td><input type="button" id="22" class="cell"></td>
+                        <td><input type="button" id="23" class="cell"></td>
+                        <td><input type="button" id="24" class="cell"></td>
+                        <td><input type="button" id="25" class="cell"></td>
+                        <td><input type="button" id="26" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="10" class="cell"></td>
+                        <td><input type="button" id="11" class="cell"></td>
+                        <td><input type="button" id="12" class="cell"></td>
+                        <td><input type="button" id="13" class="cell"></td>
+                        <td><input type="button" id="14" class="cell"></td>
+                        <td><input type="button" id="15" class="cell"></td>
+                        <td><input type="button" id="16" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="00" class="cell"></td>
+                        <td><input type="button" id="01" class="cell"></td>
+                        <td><input type="button" id="02" class="cell"></td>
+                        <td><input type="button" id="03" class="cell"></td>
+                        <td><input type="button" id="04" class="cell"></td>
+                        <td><input type="button" id="05" class="cell"></td>
+                        <td><input type="button" id="06" class="cell"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="connect_four.js"></script>
+</html>
